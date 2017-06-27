@@ -26,6 +26,43 @@ Go to the [2Captcha](https://2captcha.com/) and create account.The 2Captcha is g
 
 ![alt text](http://i65.tinypic.com/2ioqjo.png "API Key")
 
+Now just open __comsats.py__ script file and put the __API key__ there
+
+![alt text](http://i63.tinypic.com/2rfsutz.png "API Key")
+
+Now you have to add your roll number and password in the file.
+
+![alt text](http://i64.tinypic.com/2v0e3cn.png "RollNumber and Password")
+
+Now add the last thing i.e the session for which you want to chck the result.
+
+![alt text](http://i67.tinypic.com/16j4wp3.png"Session")
+
+Now all set. All this is only 1 time setting. I wrote the whole thing is just few hours or in so hurry so It might be horrifying at first sight. May be If I found time I will add some other things in it and make it user friendly.
+
+Now just run the file to check for the result and look what I got.
+
+![alt text](http://i63.tinypic.com/2qvyxsk.png "Result Output")
+
+So now just run it when you want ot check for the result.
+
+### Future Development
+
+* Make it more user friendly
+* Convert into Android App
+         
+         OR
+* Integret Twillio SMS API (So when result announced a message is delivered to your number. I am trying hard on this but actually Twillio api is expensive so cannot afford for now. And international message cost alot.)
+
+__Anyone trying to improve it, feel free to fork, makes changes and then send pull request__
+
+
+
+
+
+
+
+
 
 
 
