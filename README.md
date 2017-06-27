@@ -9,11 +9,9 @@ So as a computer science student its my duty to solve that issue. Here I wrote a
 
 ### Requirements
 
-python 3.x
-
-BeautifulSoup
-
-Request
+* python 3.x
+* BeautifulSoup
+* Request
 
 
 
