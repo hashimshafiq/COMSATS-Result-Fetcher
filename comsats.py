@@ -6,10 +6,10 @@ from bs4 import BeautifulSoup
 
 
 # Add these values
-API_KEY = 'e2c17caed43ef918e50d8aed51530aae'  # Your 2captcha API KEY
-site_key = '6LfOHSYUAAAAAPqmsHGoc8qhToQTsK9nGFUsrTmF'  # site-key, read the 2captcha docs on how to get this
-url = 'https://cms.comsats.edu.pk:8092/login.aspx'  # example url
-proxy = '35.190.188.164:80'  # example proxy
+API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxx'  # Your 2captcha API KEY
+site_key = '6LfOHSYUAAAAAPqmsHGoc8qhToQTsK9nGFUsrTmF'  # site-key,
+url = 'https://cms.comsats.edu.pk:8092/login.aspx'
+
 
 
 
@@ -33,7 +33,7 @@ payload = {
      'ddl_Session' : 'SP14',
      'ddl_Program' : 'BCS',
      'txt_RollNo' : '142',
-    'txt_Password':'Geeks7173300!',
+    'txt_Password':'xxxxxxxxx',
     'g-recaptcha-response': recaptcha_answer,
     'btn_StudentSignIn':'Sign In'
     }
@@ -49,7 +49,9 @@ res = req.get('https://cms.comsats.edu.pk:8092/StudentResultCard.aspx')
 
 soup = BeautifulSoup(res.text,'html.parser')
 tt=soup.get_text()
-st = 'Result Semester: Spring 2017'
+s1 = 'Result Semester: '
+s2 = 'Spring 2017'
+st = s1 + s2
 if st in tt:
     print("Result Announced")
 else:
