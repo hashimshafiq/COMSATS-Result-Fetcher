@@ -13,6 +13,13 @@ So as a computer science student its my duty to solve that issue. Here I wrote a
 * BeautifulSoup
 * Request
 
+__Note: You can install above libs using pip__
+
+### Login Screen
+Here is the login screen looks like:
+![alt text](http://i63.tinypic.com/1taate.jpg "CMS Login Screen")
+
+
 
 
 
