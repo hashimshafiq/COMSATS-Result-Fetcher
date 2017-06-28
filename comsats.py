@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 
 
-# Add these values
+
 API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxx'  # Your 2captcha API KEY
 site_key = '6LfOHSYUAAAAAPqmsHGoc8qhToQTsK9nGFUsrTmF'  # site-key,
 url = 'https://cms.comsats.edu.pk:8092/login.aspx'
