@@ -1,6 +1,6 @@
 # COMSATS Result Fetcher
 
-At my university, we are eagerly waiting for the result of the final semester. But we dont know what the schedule for the result. We have to enter our
+At my university, we are anxiously waiting for the result of the final semester. But we dont know what the schedule for the result. We have to enter our
 roll number , password, enter some captcha (dont know whats the need of the captcha on a student portal) and then login into the system, navigates
 to some directories to see the result and mostly disappoint beecause result not announced yet.
 
